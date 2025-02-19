@@ -1,0 +1,64 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(black, transparent);
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://example.com/hero-bg.jpg') center/cover;
+    padding: 100px 50px;
+}
+
+.badge {
+    background: rgba(128,128,128,0.6);
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.title { 
+    font-size: 3.5rem;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.details {
+    color: #46d369;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.description {
+    max-width: 500px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.join-btn {
+    background: #e50914;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.price { 
+    opacity: 0.8; 
+}
